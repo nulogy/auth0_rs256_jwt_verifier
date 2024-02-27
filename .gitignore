@@ -1,2 +1,5 @@
 *.gem
 Gemfile.lock
+
+# Rubymine settings
+.idea

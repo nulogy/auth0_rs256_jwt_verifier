@@ -11,7 +11,7 @@ class Auth0RS256JWTVerifier
       def download(url)
         url = String(url)
         body = @http.get(url)
-        json = JSON.parse(body)
+        json = {"keys" => JSON.parse(body) }
         begin
           JWKSet.new(json)
         rescue JWKSet::ParseError

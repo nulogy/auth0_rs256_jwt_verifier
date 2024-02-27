@@ -1,18 +1,18 @@
 # frozen_string_literal: true
 Gem::Specification.new do |s|
   s.name          = "auth0_rs256_jwt_verifier"
-  s.version       = "0.0.2"
-  s.date          = "2017-06-12"
+  s.version       = "0.0.3"
+  s.date          = "2024-02-27"
   s.summary       = "Auth0 JWT (RS256) verification library"
   s.description   = <<-DESCRIPTION.gsub(/\s+/, " ").strip
                       Auth0 (https://auth0.com) is web service handling users identities which can be easily plugged
                       into your application. It provides SDKs for many languages which enable you to sign up/in users
-                      and returns access token (JWT) in exchange. Access token can be used then to access your's Web Service.
+                      and returns access token (JWT) in exchange. Access token can be used then to access your Web Service.
                       This gem helps you to verify
                       (https://auth0.com/docs/api-auth/tutorials/verify-access-token#verify-the-signature)
                       such access token which has been signed using the RS256 algorithm.
                     DESCRIPTION
-  s.authors       = ["Krzysztof Zielonka"]
+  s.authors       = ["Krzysztof Zielonka", "Sean O'Loughlin"]
   s.email         = "krzysztof.zielonka@droidsonroids.pl"
   s.license       = "MIT"
   s.homepage      = "https://github.com/DroidsOnRoids/auth0_rs256_jwt_verifier"
