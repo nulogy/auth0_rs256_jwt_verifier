@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 Gem::Specification.new do |s|
   s.name          = "auth0_rs256_jwt_verifier"
-  s.version       = "0.0.6"
+  s.version       = "0.0.3"
   s.date          = "2024-02-27"
   s.summary       = "Auth0 JWT (RS256) verification library"
   s.description   = <<-DESCRIPTION.gsub(/\s+/, " ").strip
